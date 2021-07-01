@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.ff{
+	background-color: #131921;
+}
+.logoo{
+	width: 230px;
+}
+.header_nav{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10px;
+}
+.header_link{
+	color: white;
+	text-decoration: none;
+}
+.header_option{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.search_btn{
+	border-bottom-left-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+}
+.dropdown-toggle{
+	border-bottom-right-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+    height: 36px!important;
+}
+.header_linkfirstLine{
+	font-size: 12px;
+}
+.header_linkSecondLine{
+	font-size: 15px;
+	font-weight: 800;
+
+}
+.header_searchinput{
+	height: 12px;
+	padding: 18px;
+	border: none;
+	width: 100%;
+  
+}
+.header_searchbutton{
+	padding: 10px;
+	height: 30px;
+	background-color: #cd9042
+
+}
+.second_divstrt{
+	align-items: center;
+	height: 35px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 15px;
+	background-color: #232F3E;
+	text-decoration: none;
+
+
+}
+.text_color{
+	color: #d0d5db;
+	font-weight: 700;
+}
+.blockquote{
+	background-color: #D8F7EB;
+}
+.crsl_sec{
+	margin-top: -18px;
+}
+.sldr_padding{
+	padding-top: 20px;
+}
+.bgrdclr{
+	background-color: white!important;
+}
+
+.h_sett{
+	text-decoration: none;
+	color: white;
+}
+.clr_lkn{
+	font-size: 12px;
+	color: #d0d5db;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+.end_btnclr{
+	font-family: 'Roboto', sans-serif;
+	color: #d0d5db;
+	background-color: #232F3E;!important;
+	border-color: #d0d5db;
+}
+.fotr_textclr{
+	font-family: 'Roboto', sans-serif;
+	color: #d0d5db;
+	text-decoration: none;
+	font-size: 13px;
+}
+.owl-prev,
+.owl-next {
+  /*position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+*/
+}
+
+.owl-prev {
+  /*left: 2rem;*/
+  font-size: 2rem!important;
+  font-weight: 900!important;
+  
+
+}
+
+.owl-next {
+  /*right: 2rem;*/
+  font-size: 2rem!important;
+  font-weight: 900!important;
+  
+}
+
+.stars{
+	display: flex;
+}
+.star{
+	list-style: none;
+	font-size: 1.2rem;
+	padding: 0.2rem;
+}
+.lnkedit{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #514848;
+}
+.form-check-label{
+	font-size: 13px;
+}
+.a-size{
+	font-size: 17px!important;
+	line-height: 1.25!important;
+}
+.a-color{
+	color: #111!important;
+}
+.a-text{
+
+	font-weight: 400!important;
+    
+}
+.checked {
+  color: orange;
+}
+.border-right{
+	border-width: 0.17rem!important;
+}
+.lnkedit:hover{
+	color: orange;
+
+}
+.form-check-label:hover{
+	color: orange;
+}
+.form-check-input:active{
+	color: orange;
+}
+.a-color:hover{
+	color: #FF8C00!important;
+}
+.second-sldr-seting{
+	font-size: 13px!important;
+	color: orange;
+}
+.fourth-hover-setting{
+	list-style-type: none;
+    
+}
+.fourth-hov-pic{
+	margin-bottom: 10px;
+}
+.imgstng{
+	width: 70px;
+	height: 70px;	
+}
+.tbl-heding{
+	font-size: 14px!important;
+
+}
+.tbl-data{
+	font-size: 12px;
+	font-weight: bold;
+	color: #686262;
+}
+.des-data-setting{
+	font-size: 13px;
+	font-weight: bold;
+	color: #595656;
+	word-spacing: 0.2rem;
+}
+.prdt-namelink{
+	font-size: 13px;
+}
+.cmpr-thng{
+	font-size: 13px;
+}
+.box-shadow--16dp {
+   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12)
+
+}
+.box-shadow--16dp{
+	opacity: 0.9;
+	border-radius: 0.5rem!important;
+	
+}
+.tblhd-seting{
+	font-size: 14px;
+	padding-left: 1rem!important;
+	width: 13rem!important;
+
+}
+.tdstn{
+	font-size: 13px!important;
+}
+.bkgrnd-clr{
+	background-color: #FFFFDE!important;
+}
+.bgclr-od{
+	background-color: #FFFFEE!important;
+}
+.ls-clr{
+	background-color: #F3F3F3!important;
+}
+
+@media screen and (max-width:430px ){
+	.header_linkfirstLine{
+	font-size: 8px;
+}
+.header_linkSecondLine{
+	font-size: 8px;
+	font-weight: 800;
+
+}
+.header_logo{
+	width: 60px;
+	object-fit: contain;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.header_search{
+	margin-right: 70px;
+}
+.second_divstrt{
+    
+	height: 30px;
+	font-size: 10px;
+	}
+.text-left{
+	font-size: 9px;
+}
+
+}
